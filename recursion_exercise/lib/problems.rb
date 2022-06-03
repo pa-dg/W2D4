@@ -117,7 +117,6 @@ end
 
 def flatten(data)   #[1, 2, [3, 4]]
     return [data] if !data.is_a?(Array)
-    # return data if (data.is_a?(Array) && data.length == 1)
 
     flattened = []
 
